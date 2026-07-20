@@ -181,3 +181,17 @@ Prefer this local server over the public `audiobooks.dev` demo when gauging API 
 The app supports multiple languages. Localized strings are in `.xcstrings` files. See `Localization.md` for contributing translations.
 
 **Do not modify `.xcstrings` files unless specifically tasked to.** Xcode manages these files automatically when source code references new localized strings, and manual edits can clobber translations or auto-generated metadata.
+
+## Agent skills
+
+### Issue tracker
+
+Issues live in GitHub Issues (`github.com/jonstuebe/shelf-player`) via the `gh` CLI. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Canonical five-label vocabulary (`needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`). See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context (`CONTEXT.md` + `docs/adr/` at repo root). See `docs/agents/domain.md`.
