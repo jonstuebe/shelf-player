@@ -2,6 +2,9 @@
 
 **ShelfPlayer** is a powerful iOS application for listening to audiobooks and podcasts, designed for users with self-hosted [Audiobookshelf](https://www.audiobookshelf.org/) libraries. Built in **Swift 6** for **iOS 18+**, ShelfPlayer is fast, privacy-respecting, and deeply integrated with the Apple ecosystem.
 
+> [!NOTE]
+> This is a fork of the original [ShelfPlayer](https://github.com/rasmuslos/ShelfPlayer) by [@rasmuslos](https://github.com/rasmuslos), which is no longer actively maintained. This fork continues development. All credit for the original work goes to the upstream author.
+
 > [!WARNING]
 > ShelfPlayer does not include any media content. A running Audiobookshelf instance is required to use the app.
 
@@ -35,12 +38,6 @@
 * **Home Screen quick actions**: Common playback and search actions are available from the app icon.
 * **Native iPhone and iPad interface**: Optimized layouts with customizable tabs, sorting, and filters.
 
-## Download
-
-<a href="https://apps.apple.com/app/apple-store/id6475221163?ct=GitHub" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;">
-    <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1710288000" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;">
-</a>
-
 ## Screenshots
 | Audiobook | Podcast | Player | Other |
 | --- | --- | --- | --- |
@@ -51,7 +48,7 @@
 
 ### Prebuilt Releases
 
-Download the latest release from the [Releases](https://github.com/rasmuslos/shelfplayer/releases) page and install it using tools such as SideStore.
+Download the latest release from the [Releases](https://github.com/jonstuebe/shelf-player/releases) page and install it using tools such as SideStore.
 
 **Important limitations when sideloading:**
 
@@ -80,7 +77,7 @@ Contributions are welcome. To contribute:
 2. Make your changes in a new branch.
 3. Open a pull request.
 
-If you're interested in helping translate ShelfPlayer, see the [Localization Guide](https://github.com/rasmuslos/ShelfPlayer/blob/main/Localization.md) for instructions on how to contribute a translation.
+If you're interested in helping translate ShelfPlayer, see the [Localization Guide](https://github.com/jonstuebe/shelf-player/blob/main/Localization.md) for instructions on how to contribute a translation.
 
 ### AI / Vibe coding
 
@@ -114,4 +111,4 @@ Prebuilt sideloadable binaries are made available for convenience, but redistrib
 
 ## Legal
 
-[Terms of Service](https://github.com/rasmuslos/ShelfPlayer/blob/main/ToS.md) | [Privacy Policy](https://github.com/rasmuslos/ShelfPlayer/blob/main/Privacy.md) | [License](https://github.com/rasmuslos/ShelfPlayer/blob/main/LICENSE)
+[Terms of Service](https://github.com/jonstuebe/shelf-player/blob/main/ToS.md) | [Privacy Policy](https://github.com/jonstuebe/shelf-player/blob/main/Privacy.md) | [License](https://github.com/jonstuebe/shelf-player/blob/main/LICENSE)
